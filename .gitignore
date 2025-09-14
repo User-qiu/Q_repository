@@ -1,0 +1,39 @@
+*【无需加入到git】*
+*.uvguix.*
+*.bak 
+*.crf
+*.d  
+*.o
+*.obj 
+*.axf 
+*.hex 
+*.bin 
+*.map
+*.lst 
+MDK-ARM/ 
+Objects/ 
+Listings/
+*.ini 
+*.log 
+*.dbg 
+*.cdb 
+*.tracespec 
+# *.uvmpw 
+*.dep 
+*.plg 
+*.jlink  
+*.~*  
+*.tmp 
+build/
+*.user
+.vscode/ 
+.idea/
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Keil MDK 工程专用忽略规则
+链接：https://blog.csdn.net/froxy/article/details/146429266
+
+需要注意，经测试，需要删除所有空格且开头不能加东西，中间也不能隔断【注释也不能添加】
+# ------------------------------
